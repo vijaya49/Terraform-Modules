@@ -58,12 +58,12 @@ variable "nat_gw_name" {
   default     = "main-nat"
 }
 
-variable "env" {
-    type = string
-    default = "dev"
-}
+# variable "env" {
+#     type = string
+#     default = "dev"
+# }
 
-variable "region" {
-    type = string
-    default = "us-east-1"
-}
+# variable "region" {
+#     type = string
+#     default = "us-east-1"
+# }
