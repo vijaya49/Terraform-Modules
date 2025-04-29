@@ -23,6 +23,7 @@ variable "domain_name" {
 variable "hosted_zone_id" {
   description = "Hosted Zone ID in Route 53"
   type        = string
+  default = "Z03659932DLDYYQJTHLW"
 }
 
 variable "vpc_id" {
