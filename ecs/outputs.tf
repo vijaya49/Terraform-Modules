@@ -27,3 +27,15 @@ output "ecr_repo_url" {
   description = "ECR Repo URL"
   value       = aws_ecr_repository.simpletimeservice.repository_url
 }
+
+output "ecs_cluster_id" {
+  value = aws_ecs_cluster.main.id
+}
+
+output "task_definition_arn" {
+  value = aws_ecs_task_definition.task.arn
+}
+
+output "load_balancer_dns_name" {
+  value = aws_lb.main.dns_name
+}
